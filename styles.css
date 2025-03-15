@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.negrita{
+    width: 100%;
+    height: 27px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.menu{
+    width: 100%;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+/* menu donde va el logo , aqui vamos a poner y un input */
+.menu-titulo{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    width:160px ;
+    height: 100%;
+}
+.logo-imagen{
+    width: 100%;
+    height: 100%;
+}
+/* input */
+.buscador{
+    width:550px ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buscador-header{
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    border: 0.5 solid black;
+    background-color: antiquewhite;
+}
+
+/* carrito de compra */
+.carrito{
+    width:79px ;
+    height: 30px;
+    display: flex;
+    
+}
+
+.vacio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #cacecd;
+    color: red;
+}
+.circulo-rojo{
+    border-radius: 50px;
+    padding: 3px;
+    padding-top: 7px;
+    padding-right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+}
+.circulo-rojo:hover{
+    background-color: #CC72F2;
+    cursor: pointer;
+}
+
+/* menu bajo */
+.menu-bajo{
+    width: 100%;
+    height: 56.5px;
+    
+    background-color: rgb(255, 255, 255);
+}
+.menu-ul{
+    width: 100%;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.cursor:hover{
+    width: 30px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 2px;
+    background-color: red;
+
+}
+.vertical{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.puntos:hover{
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: red;
+    cursor: pointer;
+}
